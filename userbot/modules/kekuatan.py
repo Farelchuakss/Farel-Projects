@@ -7,19 +7,19 @@ from userbot import bot, TEMP_DOWNLOAD_DIRECTORY, CMD_HELP
 
 @register(outgoing=True, pattern=r'^.jurus(:? |$)([1-8])?')
 async def _(fry):
-    await fry.edit("`SI GOBLOK MULAI MENGELUARKAN JURUS TELEGRAM...☠️`")
+    await fry.edit("`Kalian Membuat Tuanku Marah Maka Aku Akan Mengeluarkan Jurus...☠️`")
     level = fry.pattern_match.group(2)
     if fry.fwd_from:
         return
     if not fry.reply_to_msg_id:
-        await fry.edit("`Mohon Balas Di Sticker Sayang`")
+        await fry.edit("`Mohon Balas Di Sticker Tuan`")
         return
     reply_message = await fry.get_reply_message()
     if not reply_message.media:
-        await fry.edit("`Gambar tidak di dukung`")
+        await fry.edit("`Gambar tidak Di Dukung Tuan Maaf...`")
         return
     if reply_message.sender.bot:
-        await fry.edit("`Mohon Balas Di Sticker Sayang`")
+        await fry.edit("`Mohon Balas Di Sticker Tuan`")
         return
     chat = "@image_deepfrybot"
     message_id_to_reply = fry.message.reply_to_msg_id
@@ -41,7 +41,7 @@ async def _(fry):
             await fry.reply("`Mohon Unblock` @image_deepfrybot`...`")
             return
         if response.text.startswith("Forward"):
-            await fry.edit("`Lord Mohon Matikan Setelan Forward Privasi...`")
+            await fry.edit("`Tuan Mohon Matikan Setelan Forward Privasi...`")
         else:
             downloaded_file_name = await fry.client.download_media(
                 response.media,
@@ -78,10 +78,10 @@ async def _(fry):
         return
     reply_message = await fry.get_reply_message()
     if not reply_message.media:
-        await fry.edit("`Mohon Balas Di Sticker Sayang`")
+        await fry.edit("`Mohon Balas Di Sticker Tuan`")
         return
     if reply_message.sender.bot:
-        await fry.edit("`Mohon Balas Di Sticker Sayang`")
+        await fry.edit("`Mohon Balas Di Sticker Tuan`")
         return
     chat = "@image_deepfrybot"
     message_id_to_reply = fry.message.reply_to_msg_id
