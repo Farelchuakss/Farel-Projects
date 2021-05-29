@@ -158,5 +158,7 @@ CMD_HELP.update({
 \n\nO\
 \nUsage: Ngatain org norak.\
 \n\nG\
-\nUsage: Liat Sendiri."
+\nUsage: Liat Sendiri.\
+\n\n.agm\
+\nUsage: kesal Ama dia."
 })
