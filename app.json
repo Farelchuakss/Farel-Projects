@@ -1,6 +1,6 @@
 {
-  "name": "RAM-UBOT",
-  "description": "[RAM-UBOT] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
+  "name": "Farel-Projects",
+  "description": "[Farel-Projects] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
   "logo": "https://telegra.ph/file/34e2aa87f71223eacbff6.jpg",
   "keywords": [
     "telegram",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/ramadhani892/RAM-UBOT",
-  "telegram": "https://t.me/Ramadhaniiiiiii1",
-  "success_url": "https://t.me/teman_random",
+  "repository": "https://github.com/farelchuakss/Farel-Projects",
+  "telegram": "https://t.me/farelgans",
+  "success_url": "https://t.me/FredDStoreID",
   "stack": "container",
   "env": {
     "API_KEY": {
