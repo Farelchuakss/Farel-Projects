@@ -167,5 +167,5 @@ CMD_HELP.update({
 \n\nG\
 \nUsage: Liat Sendiri.\
 \n\n.agm\
-\nUsage: kesal Ama dia.\
+\nUsage: kesal Ama dia."
 })
