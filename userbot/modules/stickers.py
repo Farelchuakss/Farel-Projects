@@ -242,7 +242,7 @@ async def kang(args):
                 await bot.send_read_acknowledge(conv.chat_id)
 
         await args.edit(
-            f"Makasih Bwang Atas Sticker Nya!\n\n╭✠━━━━❖━━━━✠╮\n            [TEKAN](t.me/addstickers/{packname})\n╰✠━━━━❖━━━━✠╯\n\nUntuk Melihat Sticker Anda.",
+            f"Makasih Bwang Atas Sticker Nya!\n\n>>>>>>>\n            [TEKAN](t.me/addstickers/{packname})\n<<<<<<<\n\nUntuk Melihat Sticker Anda.",
             parse_mode="md",
         )
 
@@ -324,13 +324,13 @@ async def sticker_to_png(sticker):
 
     img = await sticker.get_reply_message()
     if not img.document:
-        await sticker.edit("`Mohon Balas Ke Sticker`")
+        await sticker.edit("`Mohon Balas Ke Sticker Tuan`")
         return False
 
     try:
         img.document.attributes[1]
     except Exception:
-        await sticker.edit("`Mohon Maaf, Ini Bukanlah Sticker`")
+        await sticker.edit("`Mohon Maaf Tuan, Ini Bukanlah Sticker`")
         return
 
     with io.BytesIO() as image:
@@ -340,7 +340,7 @@ async def sticker_to_png(sticker):
         try:
             await img.reply(file=image, force_document=True)
         except Exception:
-            await sticker.edit("`Tidak Dapat Mengirim File...`")
+            await sticker.edit("`Tidak Dapat Mengirim File Tuan...`")
         else:
             await sticker.delete()
     return
