@@ -13,7 +13,7 @@ from userbot import CMD_HELP, bot
 
 @register(outgoing=True, pattern=r"^\.prg (.*)")
 async def honkasays(event):
-    await event.edit("`Sedang Memprosess!!!`")
+    await event.edit("`Sabar Lord Farel`")
     text = event.pattern_match.group(1)
     if not text:
         return await event.edit("`Beri Aku Bebeberapa Teks, Contoh .prog test`")
@@ -43,9 +43,9 @@ async def honkasays(event):
             )
         await event.delete()
     except ChatSendInlineForbiddenError:
-        await event.edit("`Boss! Saya tidak bisa menggunakan hal-hal sebaris di sini...`")
+        await event.edit("`Lord Orang Sabar Di Sayang Dia! Saya tidak bisa menggunakan hal-hal sebaris di sini...`")
     except ChatSendStickersForbiddenError:
-        await event.edit("Maaf bos, saya tidak bisa mengirim stiker ke sini !!")
+        await event.edit("Maaf Lord, saya tidak bisa mengirim stiker ke sini !!")
 
 
 CMD_HELP.update({"prog": "`.prg`\
