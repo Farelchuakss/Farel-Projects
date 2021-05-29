@@ -21,13 +21,13 @@ from userbot.events import register
 @register(outgoing=True, pattern=r"^\.(wc)$")
 async def _(event):
     if not event.reply_to_msg_id:
-        await event.edit("`Mohon Balas Ke Media Apapun..`")
+        await event.edit("`Mohon Balas Ke Media Apapun Tuan..`")
         return
     reply_message = await event.get_reply_message()
     if not reply_message.media:
-        await event.edit("`Mohon Balas Ke Gambar/Sticker/Video...`")
+        await event.edit("`Mohon Balas Ke Gambar/Sticker/Video Tuan...`")
         return
-    await event.edit("`Mendownload Media.....`")
+    await event.edit("`Sedang Mendownload Media.....`")
     if reply_message.photo:
         await bot.download_media(
             reply_message,
