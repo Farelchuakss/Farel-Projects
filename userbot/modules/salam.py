@@ -168,4 +168,3 @@ CMD_HELP.update({
 \nUsage: Liat Sendiri.\
 \n\n.agm\
 \nUsage: kesal Ama dia:\
-})
