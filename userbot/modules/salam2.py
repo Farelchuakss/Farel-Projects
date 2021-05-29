@@ -121,6 +121,11 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**GC SAMPAH KAYA GINI, BUBARIN AJA PLIS!!🤣**")
 
+@register(outgoing=True, pattern='^.agm(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**Apasih Anjing Tag Gw Mulu Bangsat Gw Risih Ngentod**")
+
 CMD_HELP.update({
     "salam2":
     ".p\
@@ -158,5 +163,7 @@ CMD_HELP.update({
 \n\n.m\
 \nUsage:\
 \n\n.k\
+\nUsage:\
+\n\n.agm\
 \nUsage:"
 })
