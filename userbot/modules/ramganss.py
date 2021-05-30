@@ -378,8 +378,8 @@ async def typewriter(typew):
 
 @register(outgoing=True, pattern='^.indosiar(?: |$)(.*)')
 async def typewriter(typew):
-    typew.pattern_match.group(1)
-        await typew.edit("Kumenangis")
+        typew.pattern_match.group(1)
+        await typew.edit("Kumenangiss~")
         sleep(1)
         await typew.edit("😭😭😭")
         sleep(1)
