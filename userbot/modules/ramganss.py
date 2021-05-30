@@ -375,6 +375,27 @@ async def typewriter(typew):
     await typew.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /\n          \\                _.•´\n            \\              (")
     await typew.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /\n          \\                _.•´\n            \\              (\n              \\  ")
 
+
+@register(outgoing=True, pattern='^.tolol(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+        await typew.edit("Kumenangis")
+        sleep(1)
+        await typew.edit("😭😭😭")
+        sleep(1)
+        await typew.edit("Membayangkan")
+        sleep(1)
+        await typew.edit("Betapa Kejamnya")
+        sleep(1)
+        await typew.edit("Dirimu padaku")
+        sleep(1)
+        await typew.edit("Kau buat aku")
+        sleep(1)
+        await typew.edit("Sakit hati")
+        sleep(1)
+        await typew.edit("Dahlah")
+        sleep(1)
+
 CMD_HELP.update({
     "vip":
     "`.bulan` ; `.hati` ; `.gbn` ; `.tolol` ; `.gmt`\
