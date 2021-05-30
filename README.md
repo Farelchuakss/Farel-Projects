@@ -12,14 +12,14 @@
 
 # KALO FORK TUH KASIH BINTANG YA TOLOL!
 
-# RAM UBOT
+# FAREL PROJECTS
 [![Deploy](https://telegra.ph/file/d97f0eb3987ac2086ccf3.jpg)](https://heroku.com/deploy?template=https://github.com/farelchuakss/Farel-Projects.git)
 # KLIK FOTO NYA KALO MAU DEPLOY
 
 <h3 align="center">REPO RAM-UBOT DIBUAT KARNA LAGI GABUT AJA SI HAHA.</h3>
 <p align="center">&nbsp;</p>
 
-### Repo RAM-UBOT
+### FORK RAM-UBOT
 Repo Yang Dibuat [Rama](https://t.me/Ramadhaniiiiiiiii1) Dari Berbagai Repo Userbot Github 
 
 
