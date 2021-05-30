@@ -1,0 +1,29 @@
+# Farel Gabut 
+
+from time import sleep
+from userbot import CMD_HELP, bot
+from userbot.events import register
+from telethon import events
+import asyncio
+
+
+@register(outgoing=True, pattern="^.indosiar$")
+async def koc(e):
+    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
+        await e.edit("Kumenangis")
+        sleep(1)
+        await e.edit("😭😭😭")
+        sleep(2)
+        await e.edit("Membayangkan")
+        sleep(3)
+        await e.edit("Betapa Kejamnya")
+        sleep(4)
+        await e.edit("Dirimu padaku")
+        sleep(5)
+        await e.edit("Kau buat aku")
+        sleep(6)
+        await e.edit("Sakit hati")
+        sleep(7)
+        await e.edit("Dahlah")
+        sleep(8)
+})
