@@ -1,4 +1,4 @@
-# System Stats RAM-UBOT
+# System Stats Farel-Projects
 
 import asyncio
 from asyncio import create_subprocess_exec as asyncrunapp
@@ -312,8 +312,8 @@ async def amireallyalive(alive):
         f"┣|• `Branch      :`Farel-Projects艾 \n"
         f"┣|• `Bot Ver     :`1.5 \n"
         f"┣|• `Modules     :`{len(modules)} Modules \n"
-        f"╰═──────╼═⌘═╾───────═ \n\n"       
-        f"[FORK](https://github.com/Farelchuakss/Farel-Projects) | [GROUP](t.me/https://t.me/ChatFredD) | [CHANNEL SUPPORT](t.me/UserbotChannel) | [OWNER](t.me/Muhfrel507)")
+        f"╰═──────╼═⌘═╾───────═ \n\n"
+        f"[REPO](https://github.com/ramadhani892/RAM-UBOT) | [GROUP](t.me/GEEZSUPPORTGROUP) | [CHANNEL SUPPORT](t.me/UserbotChannel) | [OWNER](t.me/Ramubotinfo)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -372,4 +372,3 @@ CMD_HELP.update({
 \n\n.`.spc`\
 \nUsage:Show system specification."
 })
-     
