@@ -313,7 +313,9 @@ async def amireallyalive(alive):
         f"┣|• `Bot Ver     :`1.5 \n"
         f"┣|• `Modules     :`{len(modules)} Modules \n"
         f"╰═──────╼═⌘═╾───────═ \n\n"       
-    if ALIVE_LOGO:
+        f"[FORK](https://github.com/Farelchuakss/Farel-Projects) | [GROUP](t.me/https://t.me/ChatFredD) | [CHANNEL SUPPORT](t.me/UserbotChannel) | [OWNER](t.me/Muhfrel507)")
+  
+   if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
             await alive.delete()
