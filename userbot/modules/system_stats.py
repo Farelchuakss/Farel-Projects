@@ -314,7 +314,6 @@ async def amireallyalive(alive):
         f"┣|• `Modules     :`{len(modules)} Modules \n"
         f"╰═──────╼═⌘═╾───────═ \n\n"       
         f"[FORK](https://github.com/Farelchuakss/Farel-Projects) | [GROUP](t.me/https://t.me/ChatFredD) | [CHANNEL SUPPORT](t.me/UserbotChannel) | [OWNER](t.me/Muhfrel507)")
-  
    if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -373,3 +372,4 @@ CMD_HELP.update({
 \n\n.`.spc`\
 \nUsage:Show system specification."
 })
+     
