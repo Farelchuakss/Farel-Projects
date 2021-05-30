@@ -376,7 +376,7 @@ async def typewriter(typew):
     await typew.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /\n          \\                _.•´\n            \\              (\n              \\  ")
 
 
-@register(outgoing=True, pattern='^.tolol(?: |$)(.*)')
+@register(outgoing=True, pattern='^.indosiar(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
         await typew.edit("Kumenangis")
@@ -394,8 +394,7 @@ async def typewriter(typew):
         await typew.edit("Sakit hati")
         sleep(1)
         await typew.edit("Dahlah")
-        sleep(1)
-
+  
 CMD_HELP.update({
     "vip":
     "`.bulan` ; `.hati` ; `.gbn` ; `.tolol` ; `.gmt`\
