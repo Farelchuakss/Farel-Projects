@@ -379,25 +379,25 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.indosiar(?: |$)(.*)')
 async def typewriter(typew):
         typew.pattern_match.group(1)
-        await typew.edit("Kumenangiss~")
+        await typew.edit("**Kumenangiss~**")
         sleep(1)
-        await typew.edit("😭😭😭")
+        await typew.edit("**😭😭😭**")
         sleep(1)
-        await typew.edit("Membayangkan")
+        await typew.edit("**Membayangkan**")
         sleep(1)
-        await typew.edit("Betapa Kejamnya")
+        await typew.edit("**Betapa Kejamnya**")
         sleep(1)
-        await typew.edit("Dirimu padaku")
+        await typew.edit("**Dirimu padaku**")
         sleep(1)
-        await typew.edit("Kau buat aku")
+        await typew.edit("**Kau buat aku**")
         sleep(1)
-        await typew.edit("Sakit hati")
+        await typew.edit("**Sakit hati**")
         sleep(1)
-        await typew.edit("Dahlah")
+        await typew.edit("**Dahlah**")
   
 CMD_HELP.update({
     "vip":
-    "`.bulan` ; `.hati` ; `.gbn` ; `.tolol` ; `.gmt`\
+    "`.bulan` ; `.hati` ; `.gbn` ; `.tolol` ; `.gmt` ; `.indosiar`\
     \nUsage: liat aja.\
     \n\n`.heli` ; `.tank` ; `.tembak`\n`.bundir`\
     \nUsage: liat sendiri.\
