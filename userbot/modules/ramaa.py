@@ -52,7 +52,7 @@ async def typewriter(typew):
     await typew.edit("**Ferdi gak giveaway☑️**")
     await typew.edit("**Ferdi gak giveaway✅**")
     sleep(2)
-    await typew.edit("**CUMA FAREl YANG BENER!**")
+    await typew.edit("**CUMA FAREL YANG BENER!**")
     
 # Create by myself @localheart
 
