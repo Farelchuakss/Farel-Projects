@@ -32,11 +32,11 @@ DEF_UNAPPROVED_MSG = (
     "┈─➤───────────────────┈─➤\n"
     f"**HALO SELAMAT DATANG DI PRIVATE CHAT {DEFAULTUSER},\nHARAP JANGAN SPAM DAN TUNGGU TUAN MEMBALAS\n"
     "┈─➤───────────────────┈─➤\n"
-    "╭✠╼━━━━━━❖━━━━━━━✠╮\n"
-    "┣[• MASUK AJA KE @TEMAN_RANDOM\n"
-    "┣[• PESAN OTOMATIS\n"
-    "┣[• BY RAM-UBOT\n"
-    "╰✠╼━━━━━━❖━━━━━━━✠╯")
+    "╭╼═══════════════════╾╮ \n"
+    "├◈ MASUK AJA KE @ChatFredD\n"
+    "├◈ PESAN OTOMATIS\n"
+    "├◈ BY FAREL-PROJECTS\n"
+    "╰╼═══════════════════╾╯")
 # =================================================================
 
 
